@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="BookApp.jnlp">
+  <information>
+    <title>BookApp</title>
+    <vendor>Magician</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="BookApp.jar" size="93044" download="eager" />
+    <jar href="lib\commons-codec-1.4.jar" size="58160" download="eager" />
+    <jar href="lib\derby.jar" size="4522258" download="eager" />
+    <jar href="lib\derbyclient.jar" size="761650" download="eager" />
+    <jar href="lib\fontawesomefx-commons-8.15.jar" size="20957" download="eager" />
+    <jar href="lib\fontawesomefx-fontawesome-4.7.0-5.jar" size="136891" download="eager" />
+    <jar href="lib\fontawesomefx-materialicons-2.2.0-5.jar" size="103686" download="eager" />
+    <jar href="lib\gson-2.8.5.jar" size="241622" download="eager" />
+    <jar href="lib\jfoenix-8.0.7.jar" size="2631271" download="eager" />
+    <jar href="lib\log4j-api-2.11.0.jar" size="263109" download="eager" />
+    <jar href="lib\log4j-core-2.11.0.jar" size="1600780" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="BookApp" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="bookapp.ui.login.mainLoader"  name="BookApp" />
+  <update check="always"/>
+</jnlp>
